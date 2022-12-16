@@ -1,0 +1,19 @@
+stages:
+  - build
+  - test
+  - deploy
+
+build:
+  stage: build
+  script:
+    - echo "This is the build job"
+
+test:
+  stage: test
+  script:
+    - echo "This is the test stage"
+
+deploy:
+  stage: deploy
+  script:
+    - echo "This is the deploy stage"
